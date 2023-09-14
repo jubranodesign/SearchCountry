@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search Country</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div id="header">
+        header
+    </div>
+
+    <div id="search">
+        <input type="text" placeholder="search for a country" class="searchText">
+        <input id="searchCountryBtn" type="button" value="Go" onclick="searchCountry()">
+    </div>
+
+    <div id="headerCountry">
+        <div id="name"></div>
+        <div id="flag"><img src=""></div>
+    </div>
+
+    <div id="detailsCountry">
+        <div id="leftSide">
+            <div id="languages">
+                <h3>Languages:</h3>
+                <div class="list"></div>
+            </div>
+        </div>
+
+        <div id="rightSide">
+            <div id="borders">
+                <h3>Borders:</h3>
+                <div class="list"></div>
+            </div>
+
+            <div id="currencies">
+                <h3>Currencies:</h3>
+                <div class="list"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="countries_list.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
